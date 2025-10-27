@@ -8,13 +8,13 @@ const Hero = () => {
     <section className="relative min-h-[90vh] w-full overflow-hidden bg-neutral-950 text-white">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/N8g2VNcx8Rycz93J/scene.splinecode"
+          scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
       {/* Gradient overlay for readability without blocking interaction */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-neutral-950/40 via-neutral-950/70 to-neutral-950"></div>
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-neutral-950/30 via-neutral-950/65 to-neutral-950"></div>
 
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-6 pt-28 text-center sm:pt-36">
         <motion.div
@@ -31,9 +31,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.05 }}
-          className="max-w-4xl bg-gradient-to-b from-white to-white/70 bg-clip-text text-4xl font-semibold leading-tight text-transparent sm:text-6xl"
+          className="max-w-5xl bg-gradient-to-b from-white to-white/70 bg-clip-text text-4xl font-semibold leading-tight text-transparent sm:text-6xl"
         >
-          Visualize, build, and migrate databases in seconds.
+          The AI-native studio to visualize, build, and migrate databases — instantly.
         </motion.h1>
 
         <motion.p
@@ -42,7 +42,7 @@ const Hero = () => {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="mt-5 max-w-2xl text-base text-white/70 sm:text-lg"
         >
-          Connect any database and instantly see your schema come alive. Drag-and-drop AI designer. One-click migrations. Developer-grade experience.
+          Plug in any engine and watch your schema come alive. Drag-and-drop modeling, prompt-to-schema, and one-click cross-DB migrations.
         </motion.p>
 
         <motion.div
